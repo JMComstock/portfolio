@@ -1,7 +1,2 @@
-# JohnDoe
-A Responsive Free One Page Portfolio Website template
+a basic portfolio highlighting my abilities
 
-
-
-
-# portfolio
