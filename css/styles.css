@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11316,6 +11317,11 @@ hr.divider-light {
   background-color: #fff;
 }
 
+.spacer {
+  height: 500px;
+  width: 2200px;
+}
+
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #fff;
@@ -11388,7 +11394,7 @@ header.masthead {
   background-size: cover;
 }
 header.masthead h1, header.masthead .h1 {
-  font-size: 2.25rem;
+  font-size: 1rem;
 }
 @media (min-width: 992px) {
   header.masthead {
@@ -11401,12 +11407,12 @@ header.masthead h1, header.masthead .h1 {
     font-size: 1.15rem;
   }
   header.masthead h1, header.masthead .h1 {
-    font-size: 3rem;
+    font-size: 2.1rem;
   }
 }
 @media (min-width: 1200px) {
   header.masthead h1, header.masthead .h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 }
 
@@ -11444,4 +11450,26 @@ header.masthead h1, header.masthead .h1 {
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+.typed-out {
+  overflow: hidden;
+  border-right: .15em solid #f4623a;
+  white-space: nowrap;
+  font-size: .5rem;
+  width: 0;
+  animation: 
+    typing 1.4s steps(30, end) forwards,
+    blink .8s infinite;
+}
+.type2 {
+  animation-delay: 1.4s;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink {
+  from { border-color: transparent }
+  to { border-color: #f4623a; }
 }
