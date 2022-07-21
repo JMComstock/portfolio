@@ -11473,3 +11473,17 @@ header.masthead h1, header.masthead .h1 {
   from { border-color: transparent }
   to { border-color: #f4623a; }
 }
+
+.btn-social {
+  border-radius: 100%;
+  display: inline-flex;
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  justify-content: center;
+  align-items: center;
+}
+.mx-1 {
+  margin-right: 0.25rem !important;
+  margin-left: 0.25rem !important;
+}
